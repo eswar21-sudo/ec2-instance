@@ -1,9 +1,9 @@
-name                = "my-ec2-instance"
-ami_id              = "ami-0abcd1234efgh5678"  # Replace with your region's valid AMI
-instance_type       = "t3.micro"
-subnet_id           = "subnet-0123456789abcdef0"
-vpc_id              = "vpc-0123456789abcdef0"
-key_name            = "my-ssh-key"
+name                = "spacelift-ec2"
+ami_id              = "ami-0150ccaf51ab55a51"  # Replace with your region's valid AMI
+instance_type       = "t2.micro"
+#subnet_id           = "subnet-0123456789abcdef0"
+#vpc_id              = "vpc-0123456789abcdef0"
+key_name            = "spacelift"
 associate_public_ip = true
 
 tags = {
