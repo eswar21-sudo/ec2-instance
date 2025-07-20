@@ -1,0 +1,10 @@
+stack:
+  name: spacelift-ec2
+  workspace_root: .
+  terraform_version: 1.5.7
+
+dependencies:
+  - stack: vpc
+    outputs:
+      - vpc_id
+      - public_subnet_id
