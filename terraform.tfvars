@@ -1,5 +1,5 @@
 name                = "spacelift-ec2"
-region              = "us-east-2"
+region              = "us-east-1"
 ami_id              = "ami-0150ccaf51ab55a51"  # Replace with your region's valid AMI
 instance_type       = "t2.micro"
 #subnet_id           = "subnet-0123456789abcdef0"
