@@ -2,6 +2,9 @@ variable "name" {
   description = "Name of the EC2 instance"
   type        = string
 }
+variabe "region" {
+  type = string
+}
 
 variable "ami_id" {
   description = "AMI ID to use for the instance"
