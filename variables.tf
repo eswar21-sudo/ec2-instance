@@ -14,7 +14,7 @@ variable "instance_type" {
   default     = "t3.micro"
 }
 
-variable "subnet_id" {
+variable "public_subnet_id" {
   description = "Subnet ID to launch the instance in"
   type        = string
 }
