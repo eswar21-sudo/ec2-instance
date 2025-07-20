@@ -1,3 +1,7 @@
+provider "aws" {
+ region = var.region
+
+}
 resource "aws_security_group" "ec2_sg" {
   name        = "${var.name}-sg"
   description = "Security group for EC2 instance"
